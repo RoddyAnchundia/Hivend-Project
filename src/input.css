@@ -41,3 +41,7 @@ h2{
 .textoNoticias{
     @apply text-center mt-7 mb-24 font-nav 
 }
+
+.textoNoticias a{
+    @apply font-light m-3 hover:text-gray-500
+}
