@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}","./.{html,js}" ],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
       'nav' : ['Montserrat', 'sans-serif'],
@@ -9,9 +9,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'body' : "url('./images/bg.jpeg')",
-        'secondImage1' : "url('../images/seconBox.jpeg')",
-        'secondImage2' : "url('../images/secondBox2.jpeg')",
-        'secondImage3' : "url('../images/secondBox3.jpeg')",
+        'secondImage1' : "url('images/seconBox.jpeg')",
+        'secondImage2' : "url('images/secondBox2.jpeg')",
+        'secondImage3' : "url('images/secondBox3.jpeg')",
       },
       spacing: {
         'slide': '550px',
