@@ -1,17 +1,17 @@
 .tarjetaBmx{
-    background-image: url("/images/seconBox2.jpeg");
+    background-image: url("images/secondBox2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .tarjetaSurf{
-    background-image: url("/images/secondBox.jpeg");
+    background-image: url("images/seconBox.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .tarjetaSkate{
-    background-image: url("/images/secondBox3.jpeg");
+    background-image: url("images/secondBox3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
