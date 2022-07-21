@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.enlaces{
+    @apply p-3 pr-8 pl-9 font-nav font-light 
+}
+
+.enlaces a{
+    @apply hover:border-b-2 border-solid border-gray-800
+}
+
+.contenedorImagen img{
+   @apply w-imagew h-auto
+}
+
+.Imagenes{
+    @apply flex  flex-col items-center 
+}
+
+.btn{
+    @apply bg-black px-5 py-2 text-white uppercase text-sm hover:bg-gray-600
+}
+
+h2{
+    @apply font-image text-white text-7xl 
+}
+
+.btn-shop{
+    @apply uppercase bg-white p-2 font-nav mt-4 rounded-md font-medium text-sm hover:bg-gray-500 hover:text-white
+}
+
+.newBox1 img{
+    @apply w-newsW h-newsH object-cover
+}
+
+.new{
+    @apply flex flex-col items-center
+}
+
+.textoNoticias{
+    @apply text-center mt-7 mb-24 font-nav 
+}
