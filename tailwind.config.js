@@ -8,10 +8,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'body' : "url('/images/bg.jpeg')",
-        'secondImage1' : "url('/images/seconBox.jpeg')",
-        'secondImage2' : "url('/images/secondBox2.jpeg')",
-        'secondImage3' : "url('/images/secondBox3.jpeg')"
+        'body' : "url('./images/bg.jpeg')",
+        'secondImage1' : "url('./images/seconBox.jpeg')",
+        'secondImage2' : "url('./images/secondBox2.jpeg')",
+        'secondImage3' : "url('./images/secondBox3.jpeg')"
       },
       spacing: {
         'slide': '550px',
