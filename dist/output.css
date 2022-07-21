@@ -709,7 +709,23 @@ video {
 }
 
 .bg-secondImage2 {
-  background-image: url('images/secondBox2.jpeg');
+  background-image: url('/images/secondBox2.jpeg');
+}
+
+.bg-secondImage1 {
+  background-image: url('/images/seconBox.jpeg');
+}
+
+.bg-secondImage3 {
+  background-image: url('/images/secondBox3.jpeg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-cover {
