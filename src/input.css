@@ -45,3 +45,7 @@ h2{
 .textoNoticias a{
     @apply font-light m-3 hover:text-gray-500
 }
+
+.textofooter a{
+    @apply pt-4
+}
